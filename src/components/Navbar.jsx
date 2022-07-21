@@ -1,5 +1,5 @@
 import '../App.css';
-import reactLogo from '../assets/react.svg';
+import drawer from '../assets/hamburger.png';
 
 function Navbar() {
   return (
@@ -17,7 +17,7 @@ function Navbar() {
       <div>
         <h5 className="sign-up">Sign Up</h5>
       </div>
-      <img className="drawer" src={reactLogo} />
+      <img className="drawer" src={drawer} />
     </nav>
   );
 }
