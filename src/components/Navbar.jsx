@@ -1,13 +1,14 @@
 import '../App.css';
 import drawer from '../assets/hamburger.png';
+import mainLogo from '../assets/main-logo.png';
 
 function Navbar() {
   return (
     <nav className="nav">
-      {/* <img src={reactLogo} alt="VRKids" className="main-logo" /> */}
-      <h1 className='main-logo'>
+      <img src={mainLogo} alt="VRKids" className="main-logo" />
+      {/* <h1 className="main-logo">
         <strong>VR</strong>Kids
-      </h1>
+      </h1> */}
       <ul className="nav-list">
         <li className="nav-item">Products</li>
         <li className="nav-item">Apps & Games</li>
